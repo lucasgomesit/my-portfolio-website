@@ -23,8 +23,7 @@ header {
   
 }
 
-main {
-  height: 100%;
+.main-homepage {
   margin-top: 4rem;
   display: flex;
   align-items: center;
@@ -98,7 +97,13 @@ main {
   text-align: center;
 }
 
-
+.main-projects {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 /* Projetos.html */
 
