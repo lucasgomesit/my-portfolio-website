@@ -1,0 +1,141 @@
+* {
+  font-family: Domine, sans-serif, Arial, Helvetica;
+  font-weight: 500;
+}
+
+body {
+  background-color: #b4ccb9;
+}
+
+header {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#flag-container img{
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  width: 25px;
+  
+}
+
+main {
+  height: 100%;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.name {
+  color: #20858d;
+  font-size: 1.2rem;
+  cursor: default;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 100px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.links-container button {
+  border: none;
+  padding: 5px 10px;
+  background-color: inherit;
+  color: #3b3b3b;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border-radius: 3px;
+  height: 2.0rem;
+  transition: background-color 0.6s;
+  margin-right: 0.5rem;
+}
+
+.links-container button:hover {
+  background-color: #eae2cf;
+}
+
+.introduction-text {
+  text-align: center;
+}
+
+.introduction-text .first-line {
+  font-size: 2.5rem;
+  color: #e84d5b;
+  cursor: default;
+}
+
+.introduction-text .second-line {
+  font-size: 1.2rem;
+  color: #3b3b3b;
+  font-weight: 500;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.img-container img {
+  width: 100px;
+  margin-right: 2rem;
+}
+
+
+/* */
+
+.project-introduction {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+
+/* Projetos.html */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5rem;
+  row-gap: 1.8rem;
+}
+
+.project-grid a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-preview {
+  background-color: #eae2cf;
+  transition: all 0.4s;
+  padding: 0.8rem;
+  border: 0.1rem solid #3b3b3b;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 270px;
+  height: 140px;
+}
+
+.project-preview h2 {
+  color: #e84d5b;
+  margin-top: 0;
+}
+
+.project-preview p {
+  font-size: 0.8rem;
+}
+
+.project-preview:hover {
+  opacity: 70%;
+  border-color: #e84d5b;
+  cursor: pointer;
+}
+
