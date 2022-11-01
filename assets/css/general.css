@@ -25,7 +25,7 @@ header {
 
 main {
   height: 100%;
-  margin-top: 5rem;
+  margin-top: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,6 +99,7 @@ main {
 }
 
 
+
 /* Projetos.html */
 
 .project-grid {
@@ -139,3 +140,41 @@ main {
   cursor: pointer;
 }
 
+
+/* Contacts Page */
+
+.contact-title {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.contact-container {
+  margin-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 1.3rem;
+}
+
+.contact-container div:hover {
+  opacity: 70%;
+}
+
+.contact-container div p {
+  color: #e84d5b;
+  font-weight: bold;
+}
+
+.contact-container div a {
+  text-decoration: none;
+  color:#3b3b3b;
+  font-size: 1.1rem;
+}
