@@ -167,13 +167,19 @@ main {
   opacity: 70%;
 }
 
-.contact-container div p {
-  color: #e84d5b;
-  font-weight: bold;
+.contact-container a {
+  text-decoration: none;
 }
 
-.contact-container div a {
+.contact-container .contact-media-title {
+  color: #e84d5b;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contact-container .contact-media-link {
   text-decoration: none;
   color:#3b3b3b;
   font-size: 1.1rem;
+  margin: 0;
 }
