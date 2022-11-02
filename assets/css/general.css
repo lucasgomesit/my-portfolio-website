@@ -188,3 +188,58 @@ header {
   font-size: 1.1rem;
   margin: 0;
 }
+
+/* Experience Page*/
+
+.main-experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-experience section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  max-width:800px;
+  margin-bottom: 1rem;
+}
+
+.main-experience .job-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.job-title p {
+  margin-bottom: 0;
+}
+.job-title .job-title-1 {
+  font-weight: bold;
+}
+
+.main-experience .job-description{
+  border-left: inherit;
+  padding: 0.5rem;
+}
+
+li {
+  list-style-type: square;
+}
+
+.resume-link {
+  text-decoration: none;
+  color: #e84d5b;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.resume-link:hover {
+  text-decoration: underline;
+}
