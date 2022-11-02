@@ -208,7 +208,7 @@ header {
   justify-content: center;
   border: 2px solid #3b3b3b;
   max-width:600px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.3rem;
   border-radius: 0.6rem;
 }
 
@@ -249,4 +249,8 @@ li {
 
 .resume-link:hover {
   text-decoration: underline;
+}
+
+.resume-link p {
+  margin-top: 0;
 }
